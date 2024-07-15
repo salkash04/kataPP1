@@ -55,7 +55,7 @@
       <recent name="C:\project\java\hibernate\src\main" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.UserServiceTest.cleanUsersTable">
+  <component name="RunManager">
     <configuration name="UserServiceTest.cleanUsersTable" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="TaskJDBC" />
       <option name="PACKAGE_NAME" value="" />
