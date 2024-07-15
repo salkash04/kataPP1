@@ -10,7 +10,7 @@ public class UserDaoHibernateImpl implements UserDao {
     public UserDaoHibernateImpl() {
 
     }
-    
+
     @Override
     public void createUsersTable() {
         try (Session session = Util.getSessionFactory().getCurrentSession()) {
@@ -25,7 +25,6 @@ public class UserDaoHibernateImpl implements UserDao {
                 session.getTransaction().commit();
             } catch (Exception e) {
                 session.getTransaction().rollback();
-                e.getMessage();
             }
         }
     }
