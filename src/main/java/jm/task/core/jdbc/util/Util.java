@@ -8,7 +8,7 @@ public class Util {
     private static final  String DB_DRIVER = "com.mysql.jdbc.Driver";
     private static final  String DB_URL = "jdbc:mysql://localhost:3306/dbtest";
     private static final  String DB_USER = "root";
-    private static final  String DB_PASSWORD = "your_password";
+    private static final  String DB_PASSWORD = "Nfnfh2004";
 
     public static Connection getConnection()  {
         Connection connection = null;
